@@ -1,2 +1,3 @@
-# .github
-libcr is a cross-platform C++ application framework derived from Chromium
+# libcr Organization Profile
+
+The public organization profile is maintained in [profile/README.md](profile/README.md).
