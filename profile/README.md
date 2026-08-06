@@ -1,6 +1,4 @@
 <div align="center">
-
-# libcr
 <img src="assets/libcr-poster.png" width="360" alt="libcr — Chromium + AI">
 
 ### Native desktop software, powered by Chromium
