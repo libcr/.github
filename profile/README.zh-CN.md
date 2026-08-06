@@ -1,12 +1,11 @@
 <div align="center">
-
-# libcr
+<img src="assets/libcr-poster.png" width="480" alt="libcr — Chromium + AI 组织海报">
 
 ### 基于 Chromium，打造原生桌面软件
 
 我们使用现代 C++ 与 Chromium 经过大规模实践验证的平台技术，
 开发快速、安全、跨平台且无需 Electron 的原生桌面应用。
-<img src="assets/libcr-poster.png" width="480" alt="libcr — Chromium + AI 组织海报">
+
 
 [English](README.md) | [**简体中文**](README.zh-CN.md)
 
