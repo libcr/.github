@@ -1,6 +1,7 @@
 <div align="center">
 
 # libcr
+<img src="assets/libcr-poster.png" width="360" alt="libcr — Chromium + AI">
 
 ### Native desktop software, powered by Chromium
 
@@ -15,10 +16,10 @@ using Chromium's production-grade platform technologies without Electron.
 
 ## What We Build
 
-libcr develops focused desktop tools for developers, document workflows, and
-technical content. Our applications combine native Chromium Views interfaces
-with selected Chromium components such as the Network Service, WebContents,
-and PDFium.
+libcr develops focused desktop tools for Android device control, developers,
+document workflows, and technical content. Our applications combine native
+Chromium Views interfaces with selected Chromium components such as the
+Network Service, Chromium Media, WebContents, and PDFium.
 
 This approach gives our software the capabilities of the Chromium platform
 while retaining native C++ performance, efficient system integration, and
@@ -45,6 +46,31 @@ fine-grained control over application architecture.
   resources for a growing range of languages and regions.
 
 ## Our Applications
+
+### crScrcpy
+
+A free desktop application for displaying and controlling Android devices.
+crScrcpy combines scrcpy's Android-side streaming capabilities with a native
+Chromium Views interface and Chromium 150 media pipeline for responsive
+single-device and multi-device workflows.
+
+Highlights include:
+
+- H.264/H.265 screen mirroring with automatic codec selection and hardware
+  decoding when available
+- Android audio forwarding through Chromium's low-latency audio infrastructure
+- Multiple simultaneous device sessions and persistent, color-coded device
+  groups
+- Synchronized touch, mouse, keyboard, text, and clipboard input across a group
+- Physical-display and virtual-desktop modes with configurable resolution,
+  frame rate, and bit rate
+- Direct-to-MP4 H.264/H.265 recording with optional Opus audio and no video
+  re-encoding
+
+**[View crScrcpy on GitHub](https://github.com/libcr/crScrcpy)** ·
+**[Download releases](https://github.com/libcr/crScrcpy/releases)**
+
+---
 
 ### crRequest
 

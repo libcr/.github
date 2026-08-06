@@ -6,8 +6,10 @@
 
 我们使用现代 C++ 与 Chromium 经过大规模实践验证的平台技术，
 开发快速、安全、跨平台且无需 Electron 的原生桌面应用。
+<img src="assets/libcr-poster.png" width="480" alt="libcr — Chromium + AI 组织海报">
 
 [English](README.md) | [**简体中文**](README.zh-CN.md)
+
 
 [浏览我们的项目](https://github.com/orgs/libcr/repositories)
 
@@ -15,9 +17,9 @@
 
 ## 我们在做什么
 
-libcr 专注于开发面向开发者、文档工作流和技术内容的桌面工具。我们的应用将
-Chromium Views 原生界面与 Network Service、WebContents、PDFium 等经过选择的
-Chromium 组件相结合。
+libcr 专注于开发面向 Android 设备控制、开发者、文档工作流和技术内容的桌面工具。
+我们的应用将 Chromium Views 原生界面与 Network Service、Chromium Media、
+WebContents、PDFium 等经过选择的 Chromium 组件相结合。
 
 这种技术路线既能充分利用 Chromium 平台的强大能力，又能保持原生 C++ 的性能、
 高效的系统集成，以及对应用架构各个层面的精细控制。
@@ -39,6 +41,26 @@ Chromium 组件相结合。
 - **面向国际用户** —— 应用已提供多种语言和地区的本地化资源，并在持续扩展。
 
 ## 我们的应用
+
+### crScrcpy
+
+一款用于显示和控制 Android 设备的免费桌面应用。crScrcpy 将 scrcpy 在 Android
+端的流媒体能力，与基于 Chromium Views 的原生界面和 Chromium 150 媒体管线相结合，
+为单设备及多设备工作流提供流畅、灵敏的操作体验。
+
+主要功能：
+
+- 支持 H.264/H.265 屏幕镜像、自动编解码器选择，并在可用时启用硬件解码
+- 通过 Chromium 低延迟音频基础设施转发 Android 音频
+- 支持多个设备会话同时运行，以及持久化、可自定义颜色的设备分组
+- 可在设备组内同步触摸、鼠标、键盘、文本和剪贴板操作
+- 支持实体屏幕与虚拟桌面模式，并可配置分辨率、帧率和码率
+- 将 H.264/H.265 视频直接录制为 MP4，可包含 Opus 音频，无需重新编码视频
+
+**[在 GitHub 上查看 crScrcpy](https://github.com/libcr/crScrcpy)** ·
+**[下载发行版本](https://github.com/libcr/crScrcpy/releases)**
+
+---
 
 ### crRequest
 
