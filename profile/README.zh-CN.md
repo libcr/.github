@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/libcr-poster.png" width="480" alt="libcr — Chromium + AI 组织海报">
+<img src="assets/libcr-poster.png" width="360" alt="libcr — Chromium + AI 组织海报">
 
 ### 基于 Chromium，打造原生桌面软件
 
