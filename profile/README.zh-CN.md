@@ -118,6 +118,29 @@ crPDF 在简洁的原生桌面界面中提供快速的本地文档渲染、实�
 **[从 Microsoft Store 获取 crMarkdown](https://apps.microsoft.com/store/detail/9NRV9GT24X6J?cid=DevShareMCLPCS)** ·
 **[下载发行版本](https://github.com/libcr/crMarkdown/releases)**
 
+## 联系我们
+
+欢迎通过 Telegram 或 QQ 关注 libcr、交流项目使用体验、提出建议，并与社区成员联系。
+
+<table>
+  <tr>
+    <th>Telegram</th>
+    <th>QQ 群</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://t.me/LIBCR_AI"><img src="assets/libcr_tg.png" height="240" alt="libcr Telegram @LIBCR_AI 二维码"></a>
+    </td>
+    <td align="center">
+      <img src="assets/libcr_qq.png" height="240" alt="libcr QQ 群 535986731 二维码">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://t.me/LIBCR_AI"><strong>@LIBCR_AI</strong></a></td>
+    <td align="center"><strong>535986731</strong></td>
+  </tr>
+</table>
+
 ## 开源
 
 我们相信，专注的原生应用可以同时具备强大能力与出色的易用性。欢迎浏览源代码、

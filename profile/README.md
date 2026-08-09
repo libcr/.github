@@ -131,6 +131,30 @@ Highlights include:
 **[Get crMarkdown from the Microsoft Store](https://apps.microsoft.com/store/detail/9NRV9GT24X6J?cid=DevShareMCLPCS)** ·
 **[Download releases](https://github.com/libcr/crMarkdown/releases)**
 
+## Contact Us
+
+Follow libcr, discuss our projects, share feedback, and connect with the
+community through Telegram or QQ.
+
+<table>
+  <tr>
+    <th>Telegram</th>
+    <th>QQ Group</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://t.me/LIBCR_AI"><img src="assets/libcr_tg.png" height="240" alt="Telegram QR code for @LIBCR_AI"></a>
+    </td>
+    <td align="center">
+      <img src="assets/libcr_qq.png" height="240" alt="QQ group QR code for libcr, group 535986731">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://t.me/LIBCR_AI"><strong>@LIBCR_AI</strong></a></td>
+    <td align="center"><strong>535986731</strong></td>
+  </tr>
+</table>
+
 ## Open Source
 
 We believe focused native applications can be both powerful and approachable.
