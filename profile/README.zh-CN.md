@@ -16,9 +16,9 @@
 
 ## 我们在做什么
 
-libcr 专注于开发面向 Android 设备控制、开发者、文档工作流和技术内容的桌面工具。
-我们的应用将 Chromium Views 原生界面与 Network Service、Chromium Media、
-WebContents、PDFium 等经过选择的 Chromium 组件相结合。
+libcr 专注于开发面向 Android 设备控制、开发者、局域网文件共享、文档工作流和
+技术内容的桌面工具。我们的应用将 Chromium Views 原生界面与 Network Service、
+Chromium Media、WebContents、PDFium 等经过选择的 Chromium 组件相结合。
 
 这种技术路线既能充分利用 Chromium 平台的强大能力，又能保持原生 C++ 的性能、
 高效的系统集成，以及对应用架构各个层面的精细控制。
@@ -117,6 +117,26 @@ crPDF 在简洁的原生桌面界面中提供快速的本地文档渲染、实�
 **[在 GitHub 上查看 crMarkdown](https://github.com/libcr/crMarkdown)** ·
 **[从 Microsoft Store 获取 crMarkdown](https://apps.microsoft.com/store/detail/9NRV9GT24X6J?cid=DevShareMCLPCS)** ·
 **[下载发行版本](https://github.com/libcr/crMarkdown/releases)**
+
+---
+
+### crShare
+
+一款使用原生 C++ 与 Chromium Views 构建的轻量级局域网文件共享应用。
+crShare 可以通过简洁的浏览器界面共享选定的文件夹，让附近设备无需安装客户端，
+即可下载或上传文件。
+
+主要功能：
+
+- 支持同时共享多个文件夹，可自定义显示名称、调整顺序并分别设置上传权限
+- 提供基于浏览器的目录导航、排序、文件下载、拖放上传、分块传输和实时进度
+- 支持关闭访问码、随机访问码或自定义访问码，并通过集成二维码快速连接其他设备
+- 提供可搜索的上传与下载历史，支持保留期限、隐私模式、传输详情和 CSV 导出
+- HTTP 服务运行在独立进程中，支持自定义端口、多语言网页界面以及原生浅色、深色和
+  跟随系统主题
+
+**[在 GitHub 上查看 crShare](https://github.com/libcr/crShare)** ·
+**[下载发行版本](https://github.com/libcr/crShare/releases)**
 
 ## 联系我们
 

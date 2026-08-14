@@ -15,9 +15,9 @@ using Chromium's production-grade platform technologies without Electron.
 ## What We Build
 
 libcr develops focused desktop tools for Android device control, developers,
-document workflows, and technical content. Our applications combine native
-Chromium Views interfaces with selected Chromium components such as the
-Network Service, Chromium Media, WebContents, and PDFium.
+local file sharing, document workflows, and technical content. Our applications
+combine native Chromium Views interfaces with selected Chromium components
+such as the Network Service, Chromium Media, WebContents, and PDFium.
 
 This approach gives our software the capabilities of the Chromium platform
 while retaining native C++ performance, efficient system integration, and
@@ -130,6 +130,31 @@ Highlights include:
 **[View crMarkdown on GitHub](https://github.com/libcr/crMarkdown)** ·
 **[Get crMarkdown from the Microsoft Store](https://apps.microsoft.com/store/detail/9NRV9GT24X6J?cid=DevShareMCLPCS)** ·
 **[Download releases](https://github.com/libcr/crMarkdown/releases)**
+
+---
+
+### crShare
+
+A lightweight local-network file sharing application built with native C++
+and Chromium Views. crShare makes selected folders available through a clean
+browser interface, so nearby devices can download and upload files without
+installing a client application.
+
+Highlights include:
+
+- Multiple shared folders with custom display names, ordering, and independent
+  upload permissions
+- Browser-based folder navigation, sorting, downloads, drag-and-drop uploads,
+  chunked transfer, and live progress
+- Optional random or custom access codes, with integrated QR codes for quick
+  connection from another device
+- Searchable upload and download history with retention controls, privacy mode,
+  transfer details, and CSV export
+- Isolated HTTP server process, configurable port, multilingual web interface,
+  and native light, dark, and system themes
+
+**[View crShare on GitHub](https://github.com/libcr/crShare)** ·
+**[Download releases](https://github.com/libcr/crShare/releases)**
 
 ## Contact Us
 
