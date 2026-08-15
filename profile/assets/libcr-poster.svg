@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">libcr — Beyond Qt. Faster than Electron.</title>
+  <desc id="desc">A dark, futuristic poster for libcr featuring Chrome-inspired red, yellow, green and blue light trails.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07090d"/>
+      <stop offset="0.52" stop-color="#0b1018"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#4285f4" stop-opacity=".42"/>
+      <stop offset=".46" stop-color="#4285f4" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#4285f4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chromeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ea4335"/>
+      <stop offset=".34" stop-color="#fbbc05"/>
+      <stop offset=".67" stop-color="#34a853"/>
+      <stop offset="1" stop-color="#4285f4"/>
+    </linearGradient>
+    <linearGradient id="redYellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ea4335"/>
+      <stop offset="1" stop-color="#fbbc05"/>
+    </linearGradient>
+    <linearGradient id="yellowGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbc05"/>
+      <stop offset="1" stop-color="#34a853"/>
+    </linearGradient>
+    <linearGradient id="greenBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34a853"/>
+      <stop offset="1" stop-color="#4285f4"/>
+    </linearGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="lineGlow" x="-30%" y="-100%" width="160%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".028" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frameClip"><rect x="34" y="34" width="1132" height="1532" rx="28"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect width="1200" height="1600" fill="url(#grid)"/>
+  <ellipse cx="774" cy="693" rx="500" ry="500" fill="url(#blueGlow)"/>
+
+  <!-- Fine architectural frame -->
+  <rect x="34" y="34" width="1132" height="1532" rx="28" fill="none" stroke="#fff" stroke-opacity=".1"/>
+  <path d="M34 180V62a28 28 0 0 1 28-28h118M1020 34h118a28 28 0 0 1 28 28v118M1166 1420v118a28 28 0 0 1-28 28h-118M180 1566H62a28 28 0 0 1-28-28v-118" fill="none" stroke="url(#chromeLine)" stroke-width="3"/>
+
+  <!-- Header -->
+  <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
+    <text x="92" y="132" fill="#f7f9fc" font-size="48" font-weight="700" letter-spacing="-2">libcr</text>
+    <circle cx="211" cy="116" r="5" fill="#4285f4"/>
+    <text x="1108" y="125" fill="#8993a4" font-size="14" font-weight="600" text-anchor="end" letter-spacing="3">NATIVE UI · V8 · CHROMIUM</text>
+    <line x1="92" y1="172" x2="1108" y2="172" stroke="#fff" stroke-opacity=".09"/>
+  </g>
+
+  <!-- Chrome-inspired orbital C -->
+  <g clip-path="url(#frameClip)" transform="translate(0 12)">
+    <circle cx="770" cy="650" r="286" fill="none" stroke="#fff" stroke-opacity=".04" stroke-width="74"/>
+    <path d="M550 466A286 286 0 0 1 903 397" fill="none" stroke="#ea4335" stroke-width="38" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M903 397A286 286 0 0 1 1050 642" fill="none" stroke="#fbbc05" stroke-width="38" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M1050 642A286 286 0 0 1 916 890" fill="none" stroke="#34a853" stroke-width="38" stroke-linecap="round" filter="url(#softGlow)"/>
+    <path d="M916 890A286 286 0 0 1 548 835" fill="none" stroke="#4285f4" stroke-width="38" stroke-linecap="round" filter="url(#softGlow)"/>
+    <circle cx="770" cy="650" r="122" fill="#07101f" stroke="#4285f4" stroke-opacity=".9" stroke-width="4"/>
+    <circle cx="770" cy="650" r="96" fill="#4285f4" opacity=".95" filter="url(#softGlow)"/>
+    <circle cx="770" cy="650" r="52" fill="#7cacfa" opacity=".46"/>
+    <path d="M548 835L771 651L1050 642" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
+    <circle cx="550" cy="466" r="6" fill="#fff"/>
+    <circle cx="1050" cy="642" r="6" fill="#fff"/>
+    <circle cx="548" cy="835" r="6" fill="#fff"/>
+  </g>
+
+  <!-- Main message -->
+  <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
+    <text x="92" y="840" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Beyond Qt.</text>
+    <text x="92" y="954" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Faster than</text>
+    <text x="92" y="1068" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Electron.</text>
+    <rect x="92" y="1116" width="1016" height="5" rx="2.5" fill="url(#chromeLine)" filter="url(#lineGlow)"/>
+  </g>
+
+  <!-- Technical footer -->
+  <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
+    <text x="92" y="1222" fill="#a5aebb" font-size="25" font-weight="430" letter-spacing=".4">Native performance. JavaScript flexibility.</text>
+    <text x="92" y="1267" fill="#a5aebb" font-size="25" font-weight="430" letter-spacing=".4">Built on Chromium. Designed beyond the browser.</text>
+
+    <g transform="translate(92 1372)">
+      <rect width="268" height="72" rx="36" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".13"/>
+      <circle cx="38" cy="36" r="7" fill="#34a853" filter="url(#lineGlow)"/>
+      <text x="61" y="44" fill="#e7ebf1" font-size="22" font-weight="650" letter-spacing="1.2">C++ NATIVE CORE</text>
+    </g>
+    <text x="1108" y="1418" fill="#687383" font-size="18" font-weight="600" text-anchor="end" letter-spacing="2.5">LIBCR ARCHITECTURE</text>
+    <text x="92" y="1506" fill="#596270" font-size="16" font-weight="500" letter-spacing="2">01 / BUILD DIFFERENT</text>
+    <text x="1108" y="1506" fill="#596270" font-size="16" font-weight="500" text-anchor="end" letter-spacing="2">LIBCR</text>
+  </g>
+</svg>

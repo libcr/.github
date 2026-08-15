@@ -1,9 +1,9 @@
 <div align="center">
-<img src="assets/libcr-poster.png" width="360" alt="libcr — Chromium + AI">
+<img src="assets/libcr-poster.svg" width="360" alt="libcr — Chromium + AI">
 
-### Native desktop software, powered by Chromium
+### libcr, powered by AI + Chromium
 
-We build fast, secure, and cross-platform desktop applications in modern C++,
+We use libcr to build fast, secure, and cross-platform desktop applications in modern C++,
 using Chromium's production-grade platform technologies without Electron.
 
 [**English**](README.md) | [简体中文](README.zh-CN.md)
