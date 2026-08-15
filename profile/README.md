@@ -135,25 +135,28 @@ Highlights include:
 
 ### crShare
 
-A lightweight local-network file sharing application built with native C++
-and Chromium Views. crShare makes selected folders available through a clean
-browser interface, so nearby devices can download and upload files without
-installing a client application.
+A lightweight desktop application for sharing files, text, links, and images
+across a local network. Built with native C++ and Chromium Views, crShare turns
+selected folders into a clean browser-based sharing space that other devices
+can use without installing a client application.
 
 Highlights include:
 
 - Multiple shared folders with custom display names, ordering, and independent
-  upload permissions
-- Browser-based folder navigation, sorting, downloads, drag-and-drop uploads,
-  chunked transfer, and live progress
-- Optional random or custom access codes, with integrated QR codes for quick
-  connection from another device
-- Searchable upload and download history with retention controls, privacy mode,
-  transfer details, and CSV export
-- Isolated HTTP server process, configurable port, multilingual web interface,
-  and native light, dark, and system themes
+  upload permissions, with changes applied to connected pages in real time
+- Browser-based folder navigation, sorting, streaming downloads, drag-and-drop
+  uploads, live progress, and support for files up to 16 GiB
+- Topic-based Quick Share for real-time sharing of text, links, pasted images,
+  and dropped files over WebSocket
+- Optional access-code authentication, 30-day remembered devices, integrated QR
+  codes, and HTTPS backed by a persistent local certificate authority
+- Searchable transfer history with retention controls, privacy mode, transfer
+  details, and CSV export
+- Isolated HTTP server process, multilingual native and web interfaces, and
+  native light, dark, and system themes
 
 **[View crShare on GitHub](https://github.com/libcr/crShare)** ·
+**[Get crShare from the Microsoft Store](https://apps.microsoft.com/store/detail/9MWSSWF3H9LC?cid=DevShareMCLPCS)** ·
 **[Download releases](https://github.com/libcr/crShare/releases)**
 
 ## Contact Us
