@@ -1,22 +1,15 @@
 <div align="center">
-<img src="assets/libcr-poster.png" width="360" alt="libcr — Chromium + AI 组织海报">
-
-### 基于 Chromium，打造原生桌面软件
-
-我们使用现代 C++ 与 Chromium 经过大规模实践验证的平台技术，
-开发快速、安全、跨平台且无需 Electron 的原生桌面应用。
-
+<img src="assets/libcr-poster.svg" width="480" alt="libcr — Chromium + AI">
 
 [English](README.md) | [**简体中文**](README.zh-CN.md)
-
-
 [浏览我们的项目](https://github.com/orgs/libcr/repositories)
-
 </div>
 
 ## 我们在做什么
 
-libcr 专注于开发面向 Android 设备控制、开发者、局域网文件共享、文档工作流和
+我们使用libcr架构，在Chromium经过大规模实践验证的平台基础上，
+开发快速、安全、跨平台的原生桌面应用。
+现在正在开发面向 Android 设备控制、开发者、局域网文件共享、文档工作流和
 技术内容的桌面工具。我们的应用将 Chromium Views 原生界面与 Network Service、
 Chromium Media、WebContents、PDFium 等经过选择的 Chromium 组件相结合。
 
