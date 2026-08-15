@@ -1,9 +1,6 @@
 <div align="center">
 <img src="assets/libcr-poster.svg" width="480" alt="libcr — Chromium + AI">
 
-We use libcr to build fast, secure, and cross-platform desktop applications in modern C++,
-using Chromium's production-grade platform technologies.
-
 [**English**](README.md) | [简体中文](README.zh-CN.md)
 
 [Explore our projects](https://github.com/orgs/libcr/repositories)
@@ -12,7 +9,9 @@ using Chromium's production-grade platform technologies.
 
 ## What We Build
 
-libcr develops focused desktop tools for Android device control, developers,
+We use libcr to build fast, secure, and cross-platform desktop applications in modern C++,
+using Chromium's production-grade platform technologies.
+Such as desktop applications for Android device control, developers,
 local file sharing, document workflows, and technical content. Our applications
 combine native Chromium Views interfaces with selected Chromium components
 such as the Network Service, Chromium Media, WebContents, and PDFium.
