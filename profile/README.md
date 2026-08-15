@@ -1,8 +1,6 @@
 <div align="center">
 <img src="assets/libcr-poster.svg" width="360" alt="libcr — Chromium + AI">
 
-### libcr, powered by AI + Chromium
-
 We use libcr to build fast, secure, and cross-platform desktop applications in modern C++,
 using Chromium's production-grade platform technologies without Electron.
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1300" viewBox="0 0 1200 1300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
   <title id="title">libcr — Beyond Qt. Faster than Electron.</title>
   <desc id="desc">A dark, futuristic poster for libcr featuring Chrome-inspired red, yellow, green and blue light trails.</desc>
   <defs>
@@ -46,16 +46,11 @@
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".028" stroke-width="1"/>
     </pattern>
-    <clipPath id="frameClip"><rect x="34" y="34" width="1132" height="1232" rx="28"/></clipPath>
   </defs>
 
-  <rect width="1200" height="1300" fill="url(#bg)"/>
-  <rect width="1200" height="1300" fill="url(#grid)"/>
+  <rect width="1200" height="1000" fill="url(#bg)"/>
+  <rect width="1200" height="1000" fill="url(#grid)"/>
   <ellipse cx="810" cy="430" rx="470" ry="470" fill="url(#blueGlow)"/>
-
-  <!-- Fine architectural frame -->
-  <rect x="34" y="34" width="1132" height="1232" rx="28" fill="none" stroke="#fff" stroke-opacity=".1"/>
-  <path d="M34 180V62a28 28 0 0 1 28-28h118M1020 34h118a28 28 0 0 1 28 28v118M1166 1120v118a28 28 0 0 1-28 28h-118M180 1266H62a28 28 0 0 1-28-28v-118" fill="none" stroke="url(#chromeLine)" stroke-width="3"/>
 
   <!-- Technical header -->
   <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
@@ -64,7 +59,7 @@
   </g>
 
   <!-- Chrome-inspired orbital C -->
-  <g clip-path="url(#frameClip)">
+  <g>
     <circle cx="810" cy="415" r="245" fill="none" stroke="#fff" stroke-opacity=".04" stroke-width="66"/>
     <path d="M620 260A245 245 0 0 1 930 215" fill="none" stroke="#ea4335" stroke-width="34" stroke-linecap="round" filter="url(#softGlow)"/>
     <path d="M930 215A245 245 0 0 1 1050 410" fill="none" stroke="#fbbc05" stroke-width="34" stroke-linecap="round" filter="url(#softGlow)"/>
@@ -92,26 +87,10 @@
 
   <!-- Main message -->
   <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
-    <text x="92" y="607" fill="url(#chromeText)" font-size="112" font-weight="760" letter-spacing="-5">libcr</text>
-    <circle cx="351" cy="568" r="6" fill="#4285f4"/>
+    <text x="92" y="607" fill="url(#chromeText)" font-size="116" font-weight="760" letter-spacing="-5">libcr</text>
+    <circle cx="351" cy="568" r="8" fill="#4285f4"/>
     <text x="92" y="715" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Beyond Qt</text>
     <text x="92" y="825" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Faster than</text>
     <text x="92" y="935" fill="#f5f7fa" font-size="104" font-weight="760" letter-spacing="-5">Electron</text>
-    <rect x="92" y="978" width="1016" height="5" rx="2.5" fill="url(#chromeLine)" filter="url(#lineGlow)"/>
-  </g>
-
-  <!-- Technical footer -->
-  <g font-family="Inter, 'Google Sans', 'Segoe UI', Arial, sans-serif">
-    <text x="92" y="1056" fill="#a5aebb" font-size="23" font-weight="430" letter-spacing=".4">Native performance. JavaScript flexibility.</text>
-    <text x="92" y="1095" fill="#a5aebb" font-size="23" font-weight="430" letter-spacing=".4">Built on Chromium. Designed beyond the browser.</text>
-
-    <g transform="translate(92 1140)">
-      <rect width="254" height="64" rx="32" fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".13"/>
-      <circle cx="34" cy="32" r="7" fill="#34a853" filter="url(#lineGlow)"/>
-      <text x="56" y="40" fill="#e7ebf1" font-size="20" font-weight="650" letter-spacing="1.2">C++ NATIVE CORE</text>
-    </g>
-    <text x="1108" y="1181" fill="#687383" font-size="18" font-weight="600" text-anchor="end" letter-spacing="2.5">LIBCR ARCHITECTURE</text>
-    <text x="92" y="1232" fill="#596270" font-size="15" font-weight="500" letter-spacing="2">01 / BUILD DIFFERENT</text>
-    <text x="1108" y="1232" fill="#596270" font-size="15" font-weight="500" text-anchor="end" letter-spacing="2">LIBCR</text>
   </g>
 </svg>
