@@ -156,6 +156,32 @@ Highlights include:
 **[Get crShare from the Microsoft Store](https://apps.microsoft.com/store/detail/9MWSSWF3H9LC?cid=DevShareMCLPCS)** ·
 **[Download releases](https://github.com/libcr/crShare/releases)**
 
+---
+
+### crPhotos
+
+A local photo and video library built with native C++, Chromium Views, and
+Chromium Media. crPhotos brings desktop media browsing and an Android companion
+together with local-network pairing, phone archival sync, and media sharing.
+
+Highlights include:
+
+- A virtualized timeline, favorites, color tags, and filters for media types,
+  library folders, and synchronized phone devices
+- Metadata search across filenames, cameras, dates, and offline GPS city labels
+- Photo viewing with zoom and pan, and native video playback with seeking,
+  volume controls, and fullscreen viewing
+- QR-code pairing with crPhotos Connect on Android and automatic archival
+  downloads from paired phones to the desktop
+- Nearby sharing between desktops and sending selected desktop media to a
+  paired phone, with received files saved in `DCIM/crPhotosNS/`
+- Optional local face grouping and photo text recognition, plus trusted local
+  JavaScript extensions for custom media actions
+- English and 11 additional interface locales
+
+**[View crPhotos on GitHub](https://github.com/wuruxu/crPhotos)** ·
+**[Download releases](https://github.com/wuruxu/crPhotos/releases)**
+
 ## Contact Us
 
 Follow libcr, discuss our projects, share feedback, and connect with the

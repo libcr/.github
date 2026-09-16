@@ -136,6 +136,28 @@ crPDF 在简洁的原生桌面界面中提供快速的本地文档渲染、实�
 **[从 Microsoft Store 获取 crShare](https://apps.microsoft.com/store/detail/9MWSSWF3H9LC?cid=DevShareMCLPCS)** ·
 **[下载发行版本](https://github.com/libcr/crShare/releases)**
 
+---
+
+### crPhotos
+
+一款基于原生 C++、Chromium Views 和 Chromium Media 构建的本地照片与视频管理应用。
+crPhotos 将桌面媒体浏览与 Android 配套应用连接起来，支持局域网配对、手机媒体归档同步
+和媒体分享。
+
+主要功能：
+
+- 虚拟化时间线、收藏、颜色标签，以及媒体类型、图库文件夹和同步手机设备筛选
+- 按文件名、拍摄设备、日期和离线 GPS 城市信息搜索元数据
+- 支持缩放和平移的图片查看器，以及支持进度调节、音量控制和全屏查看的原生视频播放器
+- 与 Android 端 crPhotos Connect 扫码配对，将已配对手机的媒体自动下载归档到电脑
+- Nearby sharing 支持桌面设备间分享，并可将电脑选中的媒体发送到已配对手机，
+  手机接收目录为 `DCIM/crPhotosNS/`
+- 可选的本地人物分组和照片文字识别，以及用于自定义媒体操作的可信本地 JavaScript 扩展
+- 提供英文及另外 11 种语言和地区的界面本地化
+
+**[在 GitHub 上查看 crPhotos](https://github.com/wuruxu/crPhotos)** ·
+**[下载发行版本](https://github.com/wuruxu/crPhotos/releases)**
+
 ## 联系我们
 
 欢迎通过 Telegram 或 QQ 关注 libcr、交流项目使用体验、提出建议，并与社区成员联系。
